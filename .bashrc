@@ -73,13 +73,11 @@ export GIT_EDITOR='vim'
 
 if type -P ack &>/dev/null ; then
   g(){
-    ack "$*" --all-types --color-match=green --color-filename=blue --smart-case
+    ack $* --all-types --color-match=green --color-filename=blue --smart-case
   }
+  # search for full words
   gw(){
-    ack "$*" --all-types --color-match=green --color-filename=blue --word-regexp --smart-case
-  }
-  gnolog(){
-    ack "$*" --all-types --ignore-dir=log --color-match=green --color-filename=blue --smart-case
+    ack $* --all-types --color-match=green --color-filename=blue --word-regexp --smart-case
   }
   f(){
     ack -i -g ".*$*[^\/]*$"
