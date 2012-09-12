@@ -12,7 +12,7 @@ alias lla='ls -lah'
 
 # Misc
 alias p8="ping 8.8.8.8"
-alias reloadbash='source ~/cl/etc/bash_profile'
+alias reloadbash='source ~/.bash_profile'
 alias ducks='du -cksh * | sort -rn|head -11' # Lists folders and files sizes in the current folder
 alias m='more'
 alias top='top -o cpu' # os x
