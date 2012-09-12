@@ -51,7 +51,7 @@ if [ $IS_INTERACTIVE = 'true' ] ; then # Interactive shell only
 
   prompt_func() {
       previous_return_value=$?;
-      prompt="\[${COLOR_GREEN}\]\w\[${COLOR_YELLOW}\]$(__git_ps1)\[${COLOR_RED}\]$(git_dirty_flag)\[${COLOR_NC}\]"
+      prompt="\[${COLOR_BLUE}\]\w\[${COLOR_PURPLE}\]$(__git_ps1)\[${COLOR_RED}\]$(git_dirty_flag)\[${COLOR_NC}\] "
 
       if test $previous_return_value -eq 0
       then
