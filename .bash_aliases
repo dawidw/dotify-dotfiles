@@ -44,3 +44,6 @@ alias gd='git diff'
 alias gl='git pull'
 alias gp='git push'
 alias gs='git status'
+alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+alias gpp='git pull origin master; git push origin master'
+
