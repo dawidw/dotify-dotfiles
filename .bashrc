@@ -49,8 +49,7 @@ if [ $IS_INTERACTIVE = 'true' ] ; then # Interactive shell only
     git status 2> /dev/null | grep -c : | awk '{if ($1 > 0) print " [+-]"}'
   }
   rvm_prompt() {
-    gitisok=$(git status 2> /dev/null | grep :)
-    if [ -n "$gitisok" ] ;
+    if [ -d .git ] ;
       then
         rvmp=$(~/.rvm/bin/rvm-prompt)
         echo "[$rvmp]"
