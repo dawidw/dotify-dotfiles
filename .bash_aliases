@@ -25,13 +25,14 @@ killhard() {
 }
 
 # Rails
+alias r="rails"
+alias rs="rails s"
+alias rc="rails c"
 alias be="bundle exec"
 alias bi="bundle install"
 alias bu="bundle update"
-alias rs="rails s"
-alias rc="rails c"
 alias ber="bundle exec rspec"
-alias r="rails"
+alias bert="bundle exec rspec --tag focus"
 alias bea="bundle exec autotest"
 
 # Git
@@ -39,6 +40,7 @@ alias gb='git branch'
 alias gc='git commit'
 alias gca='git commit -a'
 alias gcm='git commit -m'
+alias gcam='git commit -a -m'
 alias gco='git checkout'
 alias gd='git diff'
 alias gl='git pull'
