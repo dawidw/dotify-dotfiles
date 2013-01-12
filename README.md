@@ -17,6 +17,11 @@ gem install dotify
 dotify github lubieniebieski/dotify-dotfiles
 source ~/.bash_profile
 ```
+
+### font
+
+I use [SourceCodePro](https://github.com/adobe/Source-Code-Pro/downloads) font both for SublimeText2 and iTerm2.
+
 ## SublimeText2
 
 Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:
