@@ -17,8 +17,15 @@ gem install dotify
 dotify github lubieniebieski/dotify-dotfiles
 source ~/.bash_profile
 ```
+## SublimeText2
 
-### iTerm2
+Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:
+
+```
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/.dotify/sublime2 ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+```
+
+## iTerm2
 
 ### settings (theme included)
 
