@@ -1,0 +1,8 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
+	"font_size": 16.0,
+	"tab_size": 2,
+  "alignment_chars": ["="],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

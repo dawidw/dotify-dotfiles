@@ -1,0 +1,81 @@
+{
+	"binary_file_patterns":
+	[
+		"*.scssc",
+		"*.sassc",
+		"*.png",
+		"*.gif",
+		"*.xls",
+		"*.jpeg"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.log",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.gz",
+		"*.pdf"
+	],
+	"folder_exclude_patterns":
+	[
+		"data",
+		"app/assets/images",
+		".git",
+		".svn",
+		".hg",
+		"doc",
+		".yardoc",
+		"CVS",
+		".sass-cache",
+		".bundle",
+		"bundle",
+		".rbx",
+		"log",
+		"solr",
+		"spreadsheets",
+		"script",
+		"tmp",
+		"coverage",
+		"extra",
+		"vendor/cache"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 15.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 80
+}

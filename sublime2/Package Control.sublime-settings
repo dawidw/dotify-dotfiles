@@ -1,0 +1,30 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"CoffeeScript",
+		"CSSTidy",
+		"Haml",
+		"LaTeXTools",
+		"LESS",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"Pretty JSON",
+		"Rails Partial",
+		"RSpec",
+		"Ruby 1.9 Hash Converter",
+		"Sass",
+		"SCSS",
+		"SublimeLinter",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"WordCount"
+	],
+	"repositories":
+	[
+		"https://github.com/n00ge/sublime-text-haml-sass"
+	]
+}
