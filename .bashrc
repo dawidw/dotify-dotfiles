@@ -55,11 +55,18 @@ if [ $IS_INTERACTIVE = 'true' ] ; then # Interactive shell only
         echo "[$rvmp]"
     fi
   }
+  story_id() {
+
+    if [ -f tmp/.pivotal_story_id ] ;
+      then
+        echo "[#`cat "tmp/.pivotal_story_id"`]"
+    fi
+  }
 
   prompt_func() {
       previous_return_value=$?;
 
-      prompt="\n\[\033]0;${USER} ${PWD}\007\]\[${COLOR_BLUE}\]\w ${COLOR_RED}$(rvm_prompt)${COLOR_GRAY}$(__git_ps1)${COLOR_GREEN}\]$(git_dirty_flag)\[${COLOR_NC}\]\n"
+      prompt="\n\[\033]0;${USER} ${PWD}\007\]\[${COLOR_BLUE}\]\w ${COLOR_RED}$(rvm_prompt)${COLOR_GRAY}$(__git_ps1)${COLOR_GREEN}\]$(git_dirty_flag) $(story_id)\[${COLOR_NC}\]\n"
 
       if test $previous_return_value -eq 0
       then
