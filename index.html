@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dotify-dotfiles by lubieniebieski</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Dotify-dotfiles</h1>
+        <p>dotify-compatible dotfiles</p>
+        <p class="view"><a href="https://github.com/lubieniebieski/dotify-dotfiles">View the Project on GitHub <small>lubieniebieski/dotify-dotfiles</small></a></p>
+        <ul>
+          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>dotify-dotfiles</h1>
+
+<p><a href="https://github.com/mattdbridges/dotify">dotify</a>-compatible dotfiles</p>
+
+<h2>installation</h2>
+
+<h3>homebrew</h3>
+
+<p>install <a href="http://mxcl.github.com/homebrew/">homebrew</a> - you'll need that anyway:)</p>
+
+<pre><code>brew install git ack bash bash-completion autojump
+</code></pre>
+
+<p>then install <code>dotify</code> gem  and load config</p>
+
+<pre><code>gem install dotify
+dotify github lubieniebieski/dotify-dotfiles
+source ~/.bash_profile
+</code></pre>
+
+<h3>font</h3>
+
+<p>I use <a href="https://github.com/adobe/Source-Code-Pro/downloads">SourceCodePro</a> font both for SublimeText2 and iTerm2.</p>
+
+<h2>SublimeText2</h2>
+
+<p>Remove existing user preferences (make sure you've backup'd your own settings) &amp; link new preferences:</p>
+
+<pre><code>rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User &amp;&amp; ln -s ~/.dotify/sublime2 ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+</code></pre>
+
+<h2>iTerm2</h2>
+
+<h3>settings (theme included)</h3>
+
+<ol>
+<li>go to <code>iTerm2 -&gt; Preferences -&gt; General Tab</code>
+</li>
+<li>check <code>Load preferences from a user-defined folder or URL</code>
+</li>
+<li>in the input below the checkbox, enter <code>/Users/YOUR_USER_NAME/.dotify/.iterm2</code>
+</li>
+<li>restart iTerm2</li>
+</ol><h3>theme</h3>
+
+<p>If you would like to use only the color scheme (IR_Black), you can find it under this path:</p>
+
+<pre><code>/Users/YOUR_USER_NAME/.dotify/.iterm2/IR_Black.itermcolors
+</code></pre>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/lubieniebieski">lubieniebieski</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
