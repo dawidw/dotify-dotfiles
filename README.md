@@ -9,7 +9,7 @@
 install [homebrew](http://mxcl.github.com/homebrew/) - you'll need that anyway:)
 
 ```
-brew install git ack bash bash-completion autojump
+brew install git ack bash bash-completion autojump hub
 ```
 
 ```
