@@ -15,7 +15,7 @@
   branch = auto
 [core]
   excludesfile = ~/.gitignore
-  editor = slime
+  editor = sub
   autocrlf = input
 [apply]
   whitespace = nowarn

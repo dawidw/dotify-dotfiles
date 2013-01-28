@@ -86,7 +86,7 @@ fi
 # Editors ----------------------------------------------------------
 export EDITOR='vim'  #Command line
 export GIT_EDITOR='vim'
-
+export BUNDLER_EDITOR='sub'
 # Search
 # Use ack for grepping and find if ack is available
 
