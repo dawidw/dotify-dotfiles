@@ -9,14 +9,16 @@
 		"*.jpeg"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/IR_Black.tmTheme",
+	"color_scheme": "Packages/User/IR_Black.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
 		".tags*",
 		"*.pyc",
+		"*.swf",
 		"*.pyo",
+		"*.jpg",
 		"*.exe",
 		"*.dll",
 		"*.obj",
@@ -28,6 +30,7 @@
 		"*.dylib",
 		"*.ncb",
 		"*.sdf",
+		"*.zip",
 		"*.suo",
 		"*.pdb",
 		"*.idb",
@@ -58,6 +61,7 @@
 		"tmp",
 		"coverage",
 		"extra",
+		"public/images",
 		"vendor/cache"
 	],
 	"font_face": "Source Code Pro",
