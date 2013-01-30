@@ -2,15 +2,33 @@
 
 [dotify](https://github.com/mattdbridges/dotify)-compatible dotfiles
 
-## installation
+## clean installation (new macbook, osx mountain lion 10.8)
+
+1. download [iterm2](http://www.iterm2.com/), it's much nicer than the standard terminal app
+2. download [apple command line tool](https://developer.apple.com/downloads) or download the entire xcode from app store (more info [here](https://github.com/mxcl/homebrew/wiki/Installation))
 
 ### homebrew
 
 install [homebrew](http://mxcl.github.com/homebrew/) - you'll need that anyway:)
 
+do some magic for gcc
+
 ```
-brew install git ack bash bash-completion autojump hub
+brew update
+brew tap homebrew/dupes
 ```
+
+then
+
+```
+brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite
+```
+
+### rvm
+
+install [rvm](https://rvm.io/rvm/install/)
+
+### dotify
 
 ```
 gem install dotify
@@ -23,6 +41,18 @@ source ~/.bash_profile
 I use [SourceCodePro](https://github.com/adobe/Source-Code-Pro/downloads) font both for SublimeText2 and iTerm2.
 
 ## SublimeText2
+
+[sublime link](http://www.sublimetext.com/2)
+
+### Sublime Package Control
+
+install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
+
+### sub commannd
+
+```
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+```
 
 Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:
 
@@ -43,4 +73,6 @@ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/
 
 If you would like to use only the color scheme (IR_Black), you can find it under this path:
 
-    `/Users/YOUR_USER_NAME/.dotify/.iterm2/IR_Black.itermcolors
+```
+/Users/YOUR_USER_NAME/.dotify/.iterm2/IR_Black.itermcolors
+```
