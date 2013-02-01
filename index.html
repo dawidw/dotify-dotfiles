@@ -1,46 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Dotify-dotfiles by lubieniebieski</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Dotify-dotfiles : dotify-compatible dotfiles" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>Dotify-dotfiles</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Dotify-dotfiles</h1>
-        <p>dotify-compatible dotfiles</p>
-        <p class="view"><a href="https://github.com/lubieniebieski/dotify-dotfiles">View the Project on GitHub <small>lubieniebieski/dotify-dotfiles</small></a></p>
-        <ul>
-          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/lubieniebieski/dotify-dotfiles">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/lubieniebieski/dotify-dotfiles">View on GitHub</a>
+
+          <h1 id="project_title">Dotify-dotfiles</h1>
+          <h2 id="project_tagline">dotify-compatible dotfiles</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/lubieniebieski/dotify-dotfiles/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/lubieniebieski/dotify-dotfiles/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>dotify-dotfiles</h1>
 
 <p><a href="https://github.com/mattdbridges/dotify">dotify</a>-compatible dotfiles</p>
 
-<h2>installation</h2>
+<h2>clean installation (new macbook, osx mountain lion 10.8)</h2>
 
-<h3>homebrew</h3>
+<ol>
+<li>download <a href="http://www.iterm2.com/">iterm2</a>, it's much nicer than the standard terminal app</li>
+<li>download <a href="https://developer.apple.com/downloads">apple command line tool</a> or download the entire xcode from app store (more info <a href="https://github.com/mxcl/homebrew/wiki/Installation">here</a>)</li>
+</ol><h3>homebrew</h3>
 
 <p>install <a href="http://mxcl.github.com/homebrew/">homebrew</a> - you'll need that anyway:)</p>
 
-<pre><code>brew install git ack bash bash-completion autojump
+<p>do some magic for gcc</p>
+
+<pre><code>brew update
+brew tap homebrew/dupes
 </code></pre>
 
-<p>then install <code>dotify</code> gem  and load config</p>
+<p>then</p>
+
+<pre><code>brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite
+</code></pre>
+
+<h3>rvm</h3>
+
+<p>install <a href="https://rvm.io/rvm/install/">rvm</a></p>
+
+<h3>dotify</h3>
 
 <pre><code>gem install dotify
 dotify github lubieniebieski/dotify-dotfiles
@@ -52,6 +71,17 @@ source ~/.bash_profile
 <p>I use <a href="https://github.com/adobe/Source-Code-Pro/downloads">SourceCodePro</a> font both for SublimeText2 and iTerm2.</p>
 
 <h2>SublimeText2</h2>
+
+<p><a href="http://www.sublimetext.com/2">sublime link</a></p>
+
+<h3>Sublime Package Control</h3>
+
+<p>install <a href="http://wbond.net/sublime_packages/package_control">Sublime Package Control</a></p>
+
+<h3>sub commannd</h3>
+
+<pre><code>ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+</code></pre>
 
 <p>Remove existing user preferences (make sure you've backup'd your own settings) &amp; link new preferences:</p>
 
@@ -78,11 +108,16 @@ source ~/.bash_profile
 </code></pre>
       </section>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/lubieniebieski">lubieniebieski</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Dotify-dotfiles maintained by <a href="https://github.com/lubieniebieski">lubieniebieski</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
