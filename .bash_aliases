@@ -32,6 +32,7 @@ alias bi="bundle install"
 alias bu="bundle update"
 alias ber="bundle exec rspec"
 alias bert="bundle exec rspec --tag focus"
+alias berd="bundle exec rspec --format documentation"
 alias bea="bundle exec autotest"
 
 # Git
