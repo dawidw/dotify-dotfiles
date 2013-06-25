@@ -40,3 +40,9 @@ ehthumbs.db
 Thumbs.db
 
 sublime2/Package Control.last-run
+
+*.ca-bundle
+
+*.sublime-build
+
+*.ca-list
