@@ -50,5 +50,6 @@ alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gpp='git pull origin master; git push origin master'
 
 # git hub
-alias gsc='hub browse -- commit/'
-
+gsco() {
+  hub browse -- commit/"$1"
+}
