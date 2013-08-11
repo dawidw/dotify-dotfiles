@@ -4,6 +4,7 @@
 		"CoffeeScript",
 		"DashDoc",
 		"GitGutter",
+		"GitHub Flavored Markdown Preview",
 		"Haml",
 		"HTML2Haml",
 		"JS2Coffee",
@@ -13,9 +14,11 @@
 		"Marked.app Menu",
 		"Package Control",
 		"RSpec",
-		"Ruby 1.9 Hash Converter",
+		"Ruby Hash Converter",
 		"Sass",
 		"SCSS",
+		"SSH Config",
+		"Strapdown Markdown Preview",
 		"SyncedSideBar",
 		"Theme - Soda"
 	]

@@ -48,10 +48,10 @@ I use [SourceCodePro](https://github.com/adobe/Source-Code-Pro/downloads) font b
 
 install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
 
-### sub commannd
+### `sub` command
 
 ```
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
 ```
 
 Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:

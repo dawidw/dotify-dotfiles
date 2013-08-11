@@ -40,10 +40,11 @@
 		"*.gz",
 		"*.pdf"
 	],
+	"flatland_square_tabs": true,
 	"folder_exclude_patterns":
 	[
 		"data",
-		"app/assets/images",
+		"app/assets/fonts",
 		".git",
 		".svn",
 		".hg",
@@ -62,6 +63,7 @@
 		"coverage",
 		"extra",
 		"public/images",
+		"public/system",
 		"vendor/cache"
 	],
 	"font_face": "Source Code Pro",
@@ -70,13 +72,13 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"GitGutter"
 	],
 	"rulers":
 	[
 	],
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
