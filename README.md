@@ -92,6 +92,7 @@ install color theme
 * Alignment, shortcut: <kbd>Shift + Command + A</kbd>
 * SublimeLinter
 * Bracket Highlighter
+* Go to function, shortcut: <kbd>Command + .</kbd>
 
 ## iTerm2
 
