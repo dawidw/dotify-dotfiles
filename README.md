@@ -68,7 +68,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 link app
 
 ```
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 set default editor
