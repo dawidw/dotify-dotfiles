@@ -2,7 +2,7 @@
 ### based on lubieniebieski/dotify-dotfiles
 [dotify](https://github.com/mattdbridges/dotify)-compatible dotfiles
 
-## basic setup (new macbook, osx mountain lion 10.8)
+## basic setup (clean osx 10.8)
 
 ### terminal app
 [iterm2](http://www.iterm2.com/)
