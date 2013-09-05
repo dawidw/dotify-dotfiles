@@ -84,15 +84,15 @@ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/
 ```
 
 install color theme
-* <kbd>⇧⌘P</kbd> 
-* __Monokai Extended__ and click <kbd>enter</kbd>
+* <kbd>⇧ + ⌘ + P</kbd>  and Install Package
+* type __Monokai Extended__ and click <kbd>enter</kbd>
 
 ### sublime plugins :
 * Sidebar Enhancements
-* Alignment, shortcut: <kbd>Shift + Command + A</kbd>
+* Alignment, shortcut: <kbd>⇧ + ⌘ + A</kbd>
 * SublimeLinter
 * Bracket Highlighter
-* Go to function, shortcut: <kbd>Command + .</kbd>
+* Go to function, shortcut: <kbd>⌘ + .</kbd>
 
 ## iTerm2
 
