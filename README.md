@@ -13,7 +13,11 @@
 
 ### homebrew
 
-install [homebrew](http://mxcl.github.com/homebrew/) - you'll need that anyway:)
+install [homebrew](http://mxcl.github.com/homebrew/) 
+
+```
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+```
 
 do some magic for gcc
 
