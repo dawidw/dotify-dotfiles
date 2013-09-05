@@ -2,10 +2,14 @@
 ### based on lubieniebieski/dotify-dotfiles
 [dotify](https://github.com/mattdbridges/dotify)-compatible dotfiles
 
-## clean installation (new macbook, osx mountain lion 10.8)
+## basic setup (new macbook, osx mountain lion 10.8)
 
-1. download [iterm2](http://www.iterm2.com/), it's much nicer than the standard terminal app
-2. download [apple command line tool](https://developer.apple.com/downloads) or download the entire xcode from app store (more info [here](https://github.com/mxcl/homebrew/wiki/Installation))
+### terminal app
+[iterm2](http://www.iterm2.com/)
+
+### command line tool
+
+[apple command line tool](https://developer.apple.com/downloads) 
 
 ### homebrew
 
@@ -21,7 +25,7 @@ brew tap homebrew/dupes
 then
 
 ```
-brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite
+brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite gnu-tar
 ```
 
 ### rvm
@@ -42,13 +46,18 @@ source ~/.bash_profile
 
 not decided yet
 
-## SublimeText2
+## Editor
 
 [sublime link](http://www.sublimetext.com/2)
 
 ### Sublime Package Control
 
-install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
+* open console <kbd>ctrl+`</kbd>
+* paste:
+
+```
+import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')
+```
 
 ### `subl` command
 
