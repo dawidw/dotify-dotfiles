@@ -87,6 +87,12 @@ install color theme
 * <kbd>⇧⌘P</kbd> 
 * __Monokai Extended__ and click <kbd>enter</kbd>
 
+### sublime plugins :
+* Sidebar Enhancements
+* Alignment, shortcut: <kbd>Shift + Command + A</kbd>
+* SublimeLinter
+* Bracket Highlighter
+
 ## iTerm2
 
 ### settings (theme included)

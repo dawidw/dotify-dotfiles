@@ -10,6 +10,9 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -80,5 +83,6 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&#038;*|+=[]{}`~?",
 	"word_wrap": true
 }

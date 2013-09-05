@@ -1,8 +1,11 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
+		"BracketHighlighter",
 		"CoffeeScript",
 		"DashDoc",
+		"Find Function Definition",
 		"GitGutter",
 		"GitHub Flavored Markdown Preview",
 		"Haml",
@@ -19,8 +22,10 @@
 		"Ruby Hash Converter",
 		"Sass",
 		"SCSS",
+		"SideBarEnhancements",
 		"SSH Config",
 		"Strapdown Markdown Preview",
+		"SublimeLinter",
 		"SyncedSideBar",
 		"Theme - Soda"
 	]

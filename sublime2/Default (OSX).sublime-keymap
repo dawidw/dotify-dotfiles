@@ -6,5 +6,6 @@
     "command": "copy_path_to_clipboard"
   },
   { "keys": ["super+;"], "command": "reindent" },
-  { "keys": ["super+j"], "command": "join_lines" }
+  { "keys": ["super+j"], "command": "join_lines" },
+  {"keys": ["super+."], "command": "go_to_function"}
 ]
