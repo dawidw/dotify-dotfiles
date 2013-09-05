@@ -23,3 +23,6 @@
   pretty = %C(yellow)%h%Creset %s %C(red)(%an, %cr)%Creset
 [push]
 	default = simple
+[user]
+	name = Dawid Woźniak
+	email = dawid.wozniak@netguru.pl
