@@ -1,5 +1,5 @@
 # dotify-dotfiles
-
+### based on lubieniebieski/dotify-dotfiles
 [dotify](https://github.com/mattdbridges/dotify)-compatible dotfiles
 
 ## clean installation (new macbook, osx mountain lion 10.8)
@@ -26,19 +26,21 @@ brew install ack apple-gcc42 autoconf autojump automake bash bash-completion cur
 
 ### rvm
 
-install [rvm](https://rvm.io/rvm/install/)
+```
+\curl -L https://get.rvm.io | bash
+```
 
 ### dotify
 
 ```
 gem install dotify
-dotify github lubieniebieski/dotify-dotfiles
+dotify github dawidw/dotify-dotfiles
 source ~/.bash_profile
 ```
 
 ### font
 
-I use [SourceCodePro](https://github.com/adobe/Source-Code-Pro/downloads) font both for SublimeText2 and iTerm2.
+not decided yet
 
 ## SublimeText2
 
@@ -48,10 +50,18 @@ I use [SourceCodePro](https://github.com/adobe/Source-Code-Pro/downloads) font b
 
 install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
 
-### `sub` command
+### `subl` command
+
+link app
 
 ```
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sub
+```
+
+set default editor
+
+```
+export EDITOR='subl -w'
 ```
 
 Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:
@@ -59,6 +69,10 @@ Remove existing user preferences (make sure you've backup'd your own settings) &
 ```
 rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/.dotify/sublime2 ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
 ```
+
+install color theme
+* <kbd>⇧⌘P</kbd> 
+* "**Monokai Extended**" and click <kbd>enter</kbd>
 
 ## iTerm2
 
@@ -71,8 +85,8 @@ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/
 
 ### theme
 
-If you would like to use only the color scheme (IR_Black), you can find it under this path:
+I use my own preset:
 
 ```
-/Users/YOUR_USER_NAME/.dotify/.iterm2/IR_Black.itermcolors
+/Users/YOUR_USER_NAME/.dotify/.iterm2/dawid_preset.itermcolors
 ```

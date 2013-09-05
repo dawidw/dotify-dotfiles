@@ -53,3 +53,7 @@ alias gpp='git pull origin master; git push origin master'
 gsco() {
   hub browse -- commit/"$1"
 }
+
+# apps
+alias gh='github'
+alias n='/Users/dawidw/Work/resources/n'
