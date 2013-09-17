@@ -60,3 +60,8 @@ alias n='/Users/dawidw/Work/resources/n'
 alias pg_start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg_stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias mongo_start='mongod'
+alias redis_start='redis-server /usr/local/etc/redis.conf'
+
+# projects
+alias test_city_api='cd ~/Work/netguru/citysocialize_api && script/acceptance'
+alias test_city_web='cd ~/Work/netguru/citysocialize_web && script/acceptance'

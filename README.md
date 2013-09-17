@@ -11,6 +11,8 @@
 
 [apple command line tool](https://developer.apple.com/downloads) 
 
+### install xcode via app store
+
 ### homebrew
 
 install [homebrew](http://mxcl.github.com/homebrew/) 
@@ -29,7 +31,7 @@ brew tap homebrew/dupes
 then
 
 ```
-brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite gnu-tar
+brew install ack apple-gcc42 autoconf autojump automake bash bash-completion curl git hub libksba libtool libxml2 libxslt libyaml openssl pkg-config readline sqlite gnu-tar libiconv
 ```
 
 ### rvm

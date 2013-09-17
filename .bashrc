@@ -123,3 +123,6 @@ if [ -f ~/.bashrc_local ]; then
 fi
 
 source ~/.bash_aliases
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

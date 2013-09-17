@@ -67,7 +67,8 @@
 		"extra",
 		"public/images",
 		"public/system",
-		"vendor/cache"
+		"vendor/cache",
+		"public/assets/source_maps"
 	],
 	"font_face": "Consolas",
 	"font_size": 12.0,
@@ -84,6 +85,6 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&#038;*|+=[]{}`~?",
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&#;*|+=[]{}`~?",
 	"word_wrap": true
 }
