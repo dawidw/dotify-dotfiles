@@ -26,3 +26,5 @@
 [user]
 	name = Dawid Woźniak
 	email = dawid.wozniak@netguru.pl
+[branch]
+	autosetuprebase = always
