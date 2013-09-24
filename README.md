@@ -9,13 +9,13 @@
 
 ### command line tool
 
-[apple command line tool](https://developer.apple.com/downloads) 
+[apple command line tool](https://developer.apple.com/downloads)
 
 ### install xcode via app store
 
 ### homebrew
 
-install [homebrew](http://mxcl.github.com/homebrew/) 
+install [homebrew](http://mxcl.github.com/homebrew/)
 
 ```
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
@@ -54,7 +54,7 @@ not decided yet
 
 ## Editor
 
-[sublime link](http://www.sublimetext.com/2)
+[sublime link](http://www.sublimetext.com/3)
 
 ### Sublime Package Control
 
@@ -70,7 +70,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 link app
 
 ```
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
 
 set default editor
@@ -82,7 +82,7 @@ export EDITOR='subl -w'
 Remove existing user preferences (make sure you've backup'd your own settings) & link new preferences:
 
 ```
-rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User && ln -s ~/.dotify/sublime2 ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && ln -s ~/.dotify/sublime3 ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 ```
 
 install color theme
@@ -94,7 +94,7 @@ install color theme
 * Alignment, shortcut: <kbd>⇧ + ⌘ + A</kbd>
 * SublimeLinter
 * Bracket Highlighter
-* Go to function, shortcut: <kbd>⌘ + .</kbd>
+* Go to function, shortcut: <kbd>⌘ + .</kbd> (build in 3)
 
 ## iTerm2
 

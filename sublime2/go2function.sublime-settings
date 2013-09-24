@@ -1,7 +1,0 @@
-{
-  "definitions": /* where $NAME$ is the name of the function */
-  [
-    "def $NAME$"
-  ],
-  "file_exclude_patterns": [] /* optional list of files to exclude, falls back to global setting if not set */
-}
