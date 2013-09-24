@@ -92,7 +92,7 @@ install color theme
 ### sublime plugins :
 * Sidebar Enhancements
 * Alignment, shortcut: <kbd>⇧ + ⌘ + A</kbd>
-* SublimeLinter
+* GitGutter
 * Bracket Highlighter
 * Go to function, shortcut: <kbd>⌘ + .</kbd> (build in 3)
 

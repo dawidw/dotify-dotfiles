@@ -1,9 +1,11 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"CoffeeScriptHaml",
+		"GitGutter",
 		"Monokai Extended",
 		"SassBeautify",
 		"SideBarEnhancements",
