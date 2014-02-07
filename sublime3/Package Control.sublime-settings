@@ -6,9 +6,15 @@
 		"BracketHighlighter",
 		"CoffeeScriptHaml",
 		"GitGutter",
+		"GitHubinator",
+		"Handlebars",
 		"Monokai Extended",
+		"Sass",
 		"SassBeautify",
+		"SCSS",
 		"SideBarEnhancements",
-		"SmartMarkdown"
+		"SmartMarkdown",
+		"Theme - Spacefunk",
+		"Theme - Spacegray"
 	]
 }
