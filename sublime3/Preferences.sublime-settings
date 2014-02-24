@@ -8,9 +8,8 @@
 		"*.xls",
 		"*.jpeg"
 	],
-	"theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
 	"draw_white_space": "selection",
@@ -77,13 +76,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Vintage"
 	],
 	"reveal-on-activate": false,
 	"rulers":
 	[
 	],
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&#;*|+=[]{}`~?",
