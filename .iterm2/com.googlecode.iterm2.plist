@@ -536,6 +536,8 @@
 	<string>501 166 201 309 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>516 198 924 485 0 0 1440 878 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>768 697 384 129 0 0 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 372 1440 506 0 0 1440 878 </string>
 	<key>New Bookmarks</key>
@@ -1337,7 +1339,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-04-18T12:00:04Z</date>
+	<date>2014-05-29T18:18:31Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1383,6 +1385,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140112</string>
+	<string>1.0.0.20130622</string>
 </dict>
 </plist>
