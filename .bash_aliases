@@ -63,5 +63,3 @@ alias mongo_start='mongod'
 alias redis_start='redis-server /usr/local/etc/redis.conf'
 
 # projects
-alias test_city_api='cd ~/Work/netguru/citysocialize_api && script/acceptance'
-alias test_city_web='cd ~/Work/netguru/citysocialize_web && script/acceptance'
